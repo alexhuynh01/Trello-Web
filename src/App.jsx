@@ -7,6 +7,7 @@ import { pink } from '@mui/material/colors'
 function App() {
   return (
     <>
+      <div>TEST</div>
       <Button variant="contained">Hello world</Button>
       <Button variant="outlined">Primary</Button>
       <Button variant="outlined" disabled>
