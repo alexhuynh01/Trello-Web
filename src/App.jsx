@@ -2,12 +2,15 @@ import Button from '@mui/material/Button'
 import AccountCircleIcon from '@mui/icons-material/AccountCircle'
 import HomeIcon from '@mui/icons-material/Home'
 import { pink } from '@mui/material/colors'
-
+import Typography from '@mui/material/Typography'
 
 function App() {
   return (
     <>
       <div>TEST</div>
+
+      <Typography variant='h1' color='text.secondary'>Typography</Typography>
+
       <Button variant="contained">Hello world</Button>
       <Button variant="outlined">Primary</Button>
       <Button variant="outlined" disabled>
