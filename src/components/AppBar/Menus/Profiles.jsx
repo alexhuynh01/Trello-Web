@@ -39,6 +39,7 @@ function Profiles() {
           <Avatar
             sx={{ width: 30, height: 30 }}
             alt='alexhuynh'
+            src='https://avatars.githubusercontent.com/u/121414952?v=4'
           />
         </IconButton>
       </Tooltip>
