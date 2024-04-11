@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Box from '@mui/material/Box'
-import ModeSelect from '~/components/ModeSelect'
+import ModeSelect from '~/components/ModeSelect/ModeSelect'
 import AppsIcon from '@mui/icons-material/Apps'
 import SvgIcon from '@mui/material/SvgIcon'
 import Button from '@mui/material/Button'
@@ -21,7 +21,7 @@ import Recent from './Menus/Recent'
 import Starred from './Menus/Starred'
 import Template from './Menus/Templates'
 import Profiles from './Menus/Profiles'
-import theme from '~/theme'
+
 
 function AppBar() {
   const [searchValue, setSearchValue] = useState('')
