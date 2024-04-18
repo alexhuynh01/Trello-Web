@@ -1,7 +1,7 @@
 import Box from '@mui/material/Box'
 import TrelloCard from './TrelloCard/TrelloCard'
 
-function ListCards() {
+function ListCards({ cards }) {
   return (
     <Box sx={{
       p: '0 5px',
@@ -20,15 +20,9 @@ function ListCards() {
       '&::-webkit-scrollbar-thumb': { background: '#ced0da' },
       '&::-webkit-scrollbar-thumb:hover': { background: '#bfc2cf' }
     }}>
-      <TrelloCard />
-      <TrelloCard temporaryHideMedia />
-      <TrelloCard temporaryHideMedia />
-      <TrelloCard temporaryHideMedia />
-      <TrelloCard temporaryHideMedia />
-      <TrelloCard temporaryHideMedia />
-      <TrelloCard temporaryHideMedia />
-      <TrelloCard temporaryHideMedia />
-      <TrelloCard temporaryHideMedia />
+      {cards?.map(card => <TrelloCard key={card._id} card={card} />)}
+
+
     </Box>
   )
 }
