@@ -16,7 +16,7 @@ export const mockData = {
         _id: 'column-id-01',
         boardId: 'board-id-01',
         title: 'To Do Column 01',
-        cardOrderIds: ['card-id-07', 'card-id-02', 'card-id-03', 'card-id-04', 'card-id-05', 'card-id-06', 'card-id-01'],
+        cardOrderIds: ['card-id-071', 'card-id-02', 'card-id-03', 'card-id-04', 'card-id-05', 'card-id-06', 'card-id-07'],
         cards: [
           {
             _id: 'card-id-01',
@@ -24,7 +24,7 @@ export const mockData = {
             columnId: 'column-id-01',
             title: 'Title of card 01',
             description: 'Markdown Syntax (sẽ ở khóa nâng cao nhé)',
-            cover: 'https://trungquandev.com/wp-content/uploads/2022/07/fair-mern-stack-advanced-banner-trungquandev.jpg',
+            cover: 'https://images.unsplash.com/photo-1713453076348-1dd57aa31a64?q=80&w=3200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
             memberIds: ['test-user-id-01'],
             comments: ['test comment 01', 'test comment 02'],
             attachments: ['test attachment 01', 'test attachment 02', 'test attachment 03']
